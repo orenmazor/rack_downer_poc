@@ -5,6 +5,7 @@ The kill.rb script demonstrates the possible denial of service bug that exists i
 
 To reproduce on rails:
 
+0. to make your life easier, set your filehandle limit artificially low for this
 1. ```cd railsapp```
 2. ```bundle exec rails server```
 3. ```./kill http://localhost:3000```
